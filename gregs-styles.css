@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #010101;
+	background-color: #fefefe;
+	padding: 0;
+	margin: 0;
+}
+nav {
+	background-color: #ddd;
+	box-sizing: border-box;
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+	padding: 10px;
+}
+nav > h1 {
+	margin-bottom:0;
+	display: inline;
+	vertical-align: middle;
+	/* padding: 15px 0 0 30px; */
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.nav-links {
+	float: right;
+	padding: 0 30px 0 0;
+}
+.nav-links > a:link {
+	color:mediumpurple;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	font-size:21px;
+	font-weight: 700;
+}
+.nav-links > a:hover {
+	text-decoration: underline;
+}
+.container {
+	width: 80%;
+	margin:100px auto 0;
+	font-size: 21px;
+}
+.gregslist {
+	margin:40px 0 40px 0;
+}
+input {
+	border: 1px solid #aaa;
+	font-size: 21px;
+	width: 45%;
+	height:42px;
+	border-radius: 4px;
+	vertical-align: top;
+}
+button {
+	font-size: 21px;
+  	height: 46px;
+  	background-color: white;
+  	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+img {
+	vertical-align: top;
+	text-align: center;
+	height:100%;
+}
+.pagenat {
+	border: 1px solid #aaa;
+	font-size: 21px;
+	display: inline;
+	vertical-align: middle;
+	background-color: #fefefe;
+	padding: 12px 15px;
+}
+.pagenat, a:link {
+	text-decoration: none;
+}
+.prev {
+	width: 150px;
+	border-right: none;
+	border-radius: 4px 0 0 4px;
+}
+.center {
+	width:250px;
+}
+.next {
+	width:150px;
+	border-left: none;
+	border-radius: 0 4px 4px 0;
+}
+.results {
+	color: #888;
+	margin-top: 50px;
+	font-weight: 700;
+}
